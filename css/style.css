@@ -531,7 +531,7 @@ a:focus {
 }
 
 .page-header a:hover {
-    color: #E81C2E;
+    color: #7BF5EF;
 }
 
 .page-header a::after {
@@ -755,7 +755,7 @@ a:focus {
 .facts .facts-item i {
     margin-top: 15px;
     font-size: 45px;
-    color: #E81C2E;
+    color: #7BF5EF;
 }
 
 .facts .facts-text {
@@ -830,6 +830,10 @@ a:focus {
     text-transform: uppercase;
 }
 
+.price .price-header h4 {
+    font-size: 10px;
+}
+
 .price .price-header h2 {
     display: flex;
     align-items: flex-start;
@@ -846,7 +850,7 @@ a:focus {
 
 .price .price-item.featured-item h2,
 .price .price-item.featured-item h3 {
-    color: #E81C2E;
+    color: #29d2c9;
 }
 
 .price .price-body {
@@ -880,25 +884,25 @@ a:focus {
 }
 
 .price .price-item .price-footer .btn.btn-custom {
-    color: #E81C2E;
+    color: #29d2c9;
     background: #202C45;
-    box-shadow: inset 0 0 0 0 #E81C2E;
+    box-shadow: inset 0 0 0 0 #29d2c9;
 }
 
 .price .price-item .price-footer .btn.btn-custom:hover {
     color: #ffffff;
-    background: #E81C2E;
-    box-shadow: inset 200px 0 0 0 #E81C2E;
+    background: #29d2c9;
+    box-shadow: inset 200px 0 0 0 #29d2c9;
 }
 
 .price .price-item.featured-item .price-footer .btn.btn-custom {
     color: #ffffff;
-    background: #E81C2E;
+    background: #29d2c9;
     box-shadow: inset 0 0 0 0 #202C45;
 }
 
 .price .price-item.featured-item .price-footer .btn.btn-custom:hover {
-    color: #E81C2E;
+    color: #29d2c9;
     background: #202C45;
     box-shadow: inset 200px 0 0 0 #202C45;
 }
@@ -1002,96 +1006,6 @@ a:focus {
     }
 }
 
-
-/*******************************/
-/*********** Team CSS **********/
-/*******************************/
-.team {
-    position: relative;
-    width: 100%;
-    padding: 45px 0 15px 0;
-}
-
-.team .team-item {
-    position: relative;
-    margin-bottom: 30px;
-}
-
-.team .team-img {
-    position: relative;
-    border-radius: 5px 5px 0 0;
-    overflow: hidden;
-}
-
-.team .team-img img {
-    width: 100%;
-    transition: .3s;
-}
-
-.team .team-item:hover img {
-    transform: scale(1.1);
-}
-
-.team .team-text {
-    position: relative;
-    width: 100%;
-    padding: 35px 30px 30px 30px;
-    text-align: center;
-    background: #202C45;
-    border-radius: 0 0 5px 5px;
-    transition: .5s;
-}
-
-.team .team-item:hover .team-text {
-    background: #E81C2E;
-}
-
-.team .team-text h2 {
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-}
-
-.team .team-text p {
-    margin: 0;
-    color: #ffffff;
-}
-
-.team .team-social {
-    position: absolute;
-    width: 100%;
-    height: 40px;
-    top: -20px;
-    left: 0;
-    text-align: center;
-    font-size: 0;
-}
-
-.team .team-social a {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    margin: 0 3px;
-    padding: 7px 0;
-    text-align: center;
-    font-size: 16px;
-    color: #ffffff;
-    background: #202C45;
-    border-radius: 40px;
-    transition: .5s;
-}
-
-.team .team-item:hover .team-social a {
-    background: #E81C2E;
-}
-
-.team .team-social a:hover {
-    color: #202C45;
-}
-
-
 /*******************************/
 /******* Testimonial CSS *******/
 /*******************************/
@@ -1155,7 +1069,7 @@ a:focus {
     font-size: 25px;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    color: #E81C2E;
+    color: #7BF5EF;
     margin-right: 10px;
 }
 
@@ -1174,7 +1088,7 @@ a:focus {
 }
 
 .testimonial .owl-dot.active {
-    background: #E81C2E;
+    background: #7BF5EF;
 }
 
 
@@ -1567,7 +1481,7 @@ a:focus {
 }
 
 .single .post-item .post-text a:hover {
-    color: #E81C2E;
+    color: #7BF5EF;
 }
 
 .single .post-item .post-meta {
@@ -1930,7 +1844,7 @@ a:focus {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 2px;
-    color: #E81C2E;
+    color: #7BF5EF;
 }
 
 .footer .footer-link a {
@@ -1949,7 +1863,7 @@ a:focus {
 }
 
 .footer .footer-link a:hover {
-    color: #E81C2E;
+    color: #7BF5EF;
     letter-spacing: 1px;
 }
 
@@ -1982,7 +1896,7 @@ a:focus {
 
 .footer .footer-social a:hover {
     color: #ffffff;
-    background: #E81C2E;
+    background: #7BF5EF;
 }
 
 .footer .footer-newsletter form {
@@ -2009,13 +1923,13 @@ a:focus {
     width: 100%;
     color: #202C45;
     background: #ffffff;
-    box-shadow: inset 0 0 0 0 #E81C2E;
+    box-shadow: inset 0 0 0 0 #7BF5EF;
 }
 
 .footer .footer-newsletter .btn:hover {
     color: #ffffff;
-    background: #E81C2E;
-    box-shadow: inset 200px 0 0 0 #E81C2E;
+    background: #7BF5EF;
+    box-shadow: inset 200px 0 0 0 #7BF5EF;
 }
 
 .footer .copyright {
@@ -2030,7 +1944,7 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: #E81C2E;
+    color: #7BF5EF;
     font-weight: 700;
     letter-spacing: 1px;
 }
